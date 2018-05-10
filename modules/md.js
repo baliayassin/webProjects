@@ -63,6 +63,13 @@ module.exports = (_data) => {
     subject. addVote();
     subject.init();
     subject.getAllData();
+    subject. addVote();
+    subject. addVote();
+    subject. addVote();
+    subject. addVote();
+    subject. addVote();
+    subject.getAllData();
+
 
     subject.on(eventsConfig.ADD, (data) => {
         console.log(`#EMIT: ADD - ${data.subject}, Votes: ${data.votes}`);
